@@ -1,0 +1,170 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    /*background-color: #50d6ff;*/
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    /*background-color: gold;*/
+    font-family: 'Heebo', sans-serif;
+    color: #576BCDFF;
+    font-size: 27px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.form-wrap {
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #1f1f1f38;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 18px 0;
+}
+
+.form-wrap h2 {
+    margin-bottom: 18px;
+    text-align: start;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.form-input-label {
+    /*margin: 0;*/
+    text-align: start;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.form-input-label a {
+    text-decoration: none;
+    color: #576BCDFF;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    height: 40px;
+    border: 1px solid #1f1f1f38;
+    border-radius: 4px;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 6px 0 23px 0;
+}
+
+.input:focus-visible{
+    outline-color: #50d6ff;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.check input {
+    cursor: pointer;
+    background-color: black;
+}
+
+.btn {
+    height: 40px;
+    border: 0px solid;
+    border-radius: 4px;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    color: #fff;
+    background-color: #576BCDFF;
+    letter-spacing: 0.5px;
+    margin: 18px 0;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 5px rgba(31, 31, 31, 0.45);
+}
+
+
+.google{
+    /*margin: 0;*/
+    text-align: center;
+
+}
+
+.google a{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #576BCDFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign-up {
+    font-family: Helvetica, sans-serif;
+    display: block;
+    /*background-color: red;*/
+    /*color: #576BCDFF;*/
+    font-size: 14px;
+    /*letter-spacing: -1px;*/
+    text-align: center;
+}
+
+.sign-up a {
+    color: #576BCDFF;
+    font-size: 14px;
+    /*letter-spacing: -1px;*/
+    text-align: center;
+    text-decoration: none;
+}
+
